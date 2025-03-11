@@ -1,12 +1,12 @@
 ### EX1 Creation of Employee, Weather dataset in WEKA Data Mining and Analysis Tool and perform Preprocessing
-### DATE: 
+ 
 ### AIM: 
   To Create Employee, Weather dataset in WEKA Data Mining and Analysis Tool and perform preprocessing
 ### PROCEDURE: 
 1) Open Start -> Programs -> Accessories -> Notepad
 2) Type the following training data set with the help of Notepad for Employee Table.
 
-```
+
 --------------
 Employee Data
 ---------------
@@ -44,13 +44,18 @@ overcast,64.0,65.0,false,yes
 sunny,72.0,95.0,true,no
 sunny,69.0,70.0,false,yes
 rainy,75.0,80.0,false,yes
-```
+
 3) After that the file is saved with .arff file format.
 4) Minimize the arff file and then open Start -> Programs -> weka-3-4.
 5) Click on weka-3-4, then Weka dialog box is displayed on the screen.
 6) In that dialog box there are four modes, click on explorer.
 7) Explorer shows many options. In that click on ‘open file’ and select the arff file
 8) Click on edit button which shows employee table on weka.
+
+### OUTPUT:
+![alt text](1.png)
+![alt text](2.png)
+
 
 
 ### PREPROCESSING
@@ -72,6 +77,11 @@ rainy,75.0,80.0,false,yes
 14) Click on the Edit button, it shows a new Weather Table on Weka.
 
 ### OUTPUT:
+## Employee Data:
+![alt text](4.png)
+## Weather Data:
+![alt text](3.png)
+
 
 ### 2) Remove -> Pre-Processing Technique:
 
@@ -88,6 +98,12 @@ rainy,75.0,80.0,false,yes
 11) Click on the Edit button, it shows a new Weather Table on Weka.
 
 ### OUTPUT:
+## Employee Data:
+![alt text](6.png)
+
+
+## Weather Data:
+![alt text](5.png)
 
 ### Normalize -> Pre-Processing Technique:
 
@@ -104,12 +120,9 @@ rainy,75.0,80.0,false,yes
 11) Click on the Edit button, it shows a new Weather Table with normalized values on Weka.
 
 ### OUTPUT:
-![alt text](<Screenshot 2025-02-22 141630.png>)
-![alt text](<Screenshot 2025-02-22 141728.png>)
-![alt text](<Screenshot 2025-02-22 142238.png>)
-![alt text](<Screenshot 2025-02-22 143248.png>)
-![alt text](<Screenshot 2025-02-22 143329.png>)
-![alt text](<Screenshot 2025-02-22 143430.png>)
-
+## Employee Data:
+![alt text](8.png)
+## Weather Data:
+![alt text](7.png)
 ### RESULT: 
   Thus the program for generating employee and weather datasets has been developed, and preprocessing has been accomplished successfully.
